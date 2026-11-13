@@ -42,13 +42,6 @@ python -m evaluation.run_eval --generate  # Titan + Converse evaluation (AWS bil
 
 The script writes `evaluation/results.json` (ignored by git), capturing responses, evidence presence, answerability heuristic and required-fact substring matches. **These are not validated groundedness scores.** Review each response against retrieved evidence and mark `human_groundedness` true/false, recording notes. A grounded answer must have every factual claim supported by its retrieved excerpts; a correct answer without evidence is not grounded. Check citations separately. Dataset examples are small, synthetic and not a production benchmark. Similarity threshold 0.35 is an uncalibrated starting point: tune on held-out examples and measure false positives and false abstentions.
 
-## Limitations and honest CV framing
-
-- Titan embeddings require live AWS access even without generated answers; there is no offline TF-IDF fallback.
-- Automated CI tests use mocked embeddings and never call AWS. **No live AWS calls or evaluation results are claimed by this repository.**
-- Guardrails are prompt-level only, not Amazon Bedrock Guardrails.
-- No SageMaker, production deployment, persistent vector store, authentication or cost monitoring is implemented.
-- Generated text and citations can hallucinate; manual evidence review remains necessary.
 
 **Before live verification:** “Implemented a Python RAG prototype integrating Amazon Titan V2 embeddings for semantic retrieval and Bedrock Converse, with an 18-question groundedness evaluation harness.”
 
