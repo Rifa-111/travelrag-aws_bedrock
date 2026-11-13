@@ -1,6 +1,6 @@
 # TravelRAG — Amazon Bedrock Titan Semantic RAG
 
-**Portfolio prototype:** Python/Streamlit travel-policy assistant with Amazon Titan Text Embeddings V2 semantic retrieval, cosine similarity ranking, optional Bedrock Converse answer generation and an 18-question evaluation set. All policy data is fictional; this project is not affiliated with Amex GBT.
+**Portfolio prototype:** Python/Streamlit travel-policy assistant with Amazon Titan Text Embeddings V2 semantic retrieval, cosine similarity ranking, optional Bedrock Converse answer generation and an 18-question evaluation set.
 
 ## Architecture
 
