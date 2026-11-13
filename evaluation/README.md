@@ -1,0 +1,1 @@
+The 18-question test set includes answerable, paraphrased and unsupported queries. Human groundedness labels are intentionally blank until live Bedrock outputs are reviewed. Never report unmeasured accuracy.
