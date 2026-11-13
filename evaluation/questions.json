@@ -1,0 +1,128 @@
+[
+  {
+    "id": "Q01",
+    "question": "What is the nightly hotel cap?",
+    "expected_fact": "180",
+    "topic": "hotel",
+    "answerable": true
+  },
+  {
+    "id": "Q02",
+    "question": "Are hotel taxes included in the limit?",
+    "expected_fact": "including taxes",
+    "topic": "hotel",
+    "answerable": true
+  },
+  {
+    "id": "Q03",
+    "question": "How can I exceed the hotel cap?",
+    "expected_fact": "written manager approval",
+    "topic": "hotel",
+    "answerable": true
+  },
+  {
+    "id": "Q04",
+    "question": "What is the daily meal allowance?",
+    "expected_fact": "45",
+    "topic": "meal",
+    "answerable": true
+  },
+  {
+    "id": "Q05",
+    "question": "Can I claim alcoholic drinks?",
+    "expected_fact": "not reimbursable",
+    "topic": "meal",
+    "answerable": true
+  },
+  {
+    "id": "Q06",
+    "question": "Are meals covered on overnight trips?",
+    "expected_fact": "overnight",
+    "topic": "meal",
+    "answerable": true
+  },
+  {
+    "id": "Q07",
+    "question": "Which train class is reimbursable?",
+    "expected_fact": "standard-class",
+    "topic": "rail",
+    "answerable": true
+  },
+  {
+    "id": "Q08",
+    "question": "Can I book first-class rail?",
+    "expected_fact": "advance written approval",
+    "topic": "rail",
+    "answerable": true
+  },
+  {
+    "id": "Q09",
+    "question": "Who approves first-class rail?",
+    "expected_fact": "travel operations",
+    "topic": "rail",
+    "answerable": true
+  },
+  {
+    "id": "Q10",
+    "question": "Which cabin is standard for short flights?",
+    "expected_fact": "economy",
+    "topic": "flight",
+    "answerable": true
+  },
+  {
+    "id": "Q11",
+    "question": "When is economy the default?",
+    "expected_fact": "shorter than six hours",
+    "topic": "flight",
+    "answerable": true
+  },
+  {
+    "id": "Q12",
+    "question": "Do premium cabins need approval?",
+    "expected_fact": "prior approval",
+    "topic": "flight",
+    "answerable": true
+  },
+  {
+    "id": "Q13",
+    "question": "When must receipts be submitted?",
+    "expected_fact": "14 calendar days",
+    "topic": "receipt",
+    "answerable": true
+  },
+  {
+    "id": "Q14",
+    "question": "Must receipts be itemised?",
+    "expected_fact": "itemised",
+    "topic": "receipt",
+    "answerable": true
+  },
+  {
+    "id": "Q15",
+    "question": "Does the policy cover pet insurance?",
+    "expected_fact": "",
+    "topic": "unanswerable",
+    "answerable": false
+  },
+  {
+    "id": "Q16",
+    "question": "What is the reimbursement for personal gym memberships?",
+    "expected_fact": "",
+    "topic": "unanswerable",
+    "answerable": false
+  },
+  {
+    "id": "Q17",
+    "question": "What is the company's maternity leave policy?",
+    "expected_fact": "",
+    "topic": "unanswerable",
+    "answerable": false
+  },
+  {
+    "id": "Q18",
+    "question": "What is the maximum daily taxi budget?",
+    "expected_fact": "",
+    "topic": "unanswerable",
+    "answerable": false
+  }
+]
