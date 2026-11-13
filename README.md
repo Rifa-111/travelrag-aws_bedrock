@@ -1,12 +1,12 @@
 # TravelRAG — Retrieval-Augmented Travel Policy Assistant
 
-A small **portfolio demonstration** of document retrieval, evidence inspection and optional LLM answer generation with **Amazon Bedrock**. Uses **fictional** policies, and is not affiliated with Amex GBT.
+A small **portfolio demonstration** of document retrieval, evidence inspection and optional LLM answer generation with **Amazon Bedrock**. Uses **fictional** policies.
 
 ## Architecture
 
 `Streamlit question → TF-IDF chunk retrieval → relevance threshold → (optional) Bedrock Converse → answer + retrieved evidence`
 
-This deliberately uses **local scikit-learn TF-IDF retrieval**, not Bedrock Knowledge Bases, vector embeddings or SageMaker. Do not describe it as experience with those services. It demonstrates a working integration path for Bedrock Converse, subject to AWS account access and model availability.
+This project uses **local scikit-learn TF-IDF retrieval**, not Bedrock Knowledge Bases, vector embeddings or SageMaker. Do not describe it as experience with those services. It demonstrates a working integration path for Bedrock Converse, subject to AWS account access and model availability.
 
 ## Run locally (no AWS charges)
 
@@ -43,10 +43,9 @@ Required IAM permission for the selected model typically includes `bedrock:Invok
 python -m pytest -q
 ```
 
-GitHub Actions runs the unit tests without AWS credentials. Bedrock integration testing requires a configured account and is **not** claimed as completed by CI.
+GitHub Actions runs the unit tests without AWS credentials. Bedrock integration testing requires a configured account.
 
-## CV wording (only after you personally run and verify it)
-
+#
 > Built a Python/Streamlit travel-policy RAG prototype with local TF-IDF retrieval, source inspection and optional Amazon Bedrock Converse integration; added relevance-based abstention and automated retrieval tests.
 
 If you have not executed a successful Bedrock call, describe the integration as **implemented but not cloud-validated**. Do not claim SageMaker experience from this project.
