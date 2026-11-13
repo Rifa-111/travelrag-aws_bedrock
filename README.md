@@ -1,6 +1,6 @@
 # TravelRAG — Retrieval-Augmented Travel Policy Assistant
 
-A small **portfolio demonstration** of document retrieval, evidence inspection and optional LLM answer generation with **Amazon Bedrock**. Uses **fictional** policies.
+A small **portfolio demonstration** of document retrieval, evidence inspection and optional LLM answer generation with **Amazon Bedrock**. Uses **fictional** policies. 
 
 ## Architecture
 
